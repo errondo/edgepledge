@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signin.css">
+</head>
+    <body>
+        <main>
+            <h1>Sign in to be able to post your NFT</h1>
+            <form method="post" action="/E:/project/NFT shop/">
+            <label>
+              first name:  <input type="text" required >
+            </label>
+            <label>
+                last name: <input type="text" required>
+            </label>
+            <label> 
+                Email: <input type="email" required>
+            </label>
+                password: <input type="password" pattern="[a-z0-5]{8,}" required>
+            <label>
+                <div class="divi"></div>
+                industry: <select>
+                    <option value="">(select one)</option>
+                    <option value="1">2D arts</option>
+                    <option value="2">3D models</option>
+                    <option value="3">prefer not to say</option>
+                </select>
+            </label>
+            <label>
+                about yourself: <textarea placeholder="bio" >
+
+                </textarea>
+            </label>
+            <button name="sign in" value="sign in">sign in</button>
+            <label>
+                <input type="checkbox" required class="inline" > I agree to the <a href="">terms of privacy </a>
+            </label>
+            </form>
+        </main>
+    </body>
+</html>

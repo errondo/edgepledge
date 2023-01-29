@@ -1,0 +1,58 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+    background-color: #0271a9;
+    width: 550px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 black;
+    padding: 10px 20px 0 10px;
+    margin: 0 auto
+}
+body {
+    background-image: url(Untitled13_20221219142717.png);
+}
+input,textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: rgb(119, 119, 223);
+    color: white;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+select {
+    color: white;
+    width: 100%;
+    background-color: rgb(119, 119, 223);
+    border: solid 2px black;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+.divi {
+    width: 530px;
+    height: 10px;
+    border-top: solid 2px blue;
+    justify-content: center;
+    padding: 8px 0 0 0;
+}
+button {
+    display: block;
+    font-size: 30px;
+    height: 45px;
+    width: 60%;
+    margin: 1em auto;
+    color: #a3c1dc;
+    background-color: #01319d;
+    border: solid 2px black;
+    border-radius: 5px;
+    justify-content: center;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
