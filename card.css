@@ -6,11 +6,11 @@ main {
     background-color: #0271a9;
     width: 550px;
     height: 640px;
-    margin: 40px;
+    margin: auto 0;
     padding: 20px;
     border: 5px solid red;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 img {
     width: 480px;
@@ -43,4 +43,22 @@ button {
 span {
     background-color: yellow;
     color: black;
+}
+@media(max-width: 600px){
+    main {
+        width: 350px;
+        height: 440px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        right: 50%;
+        bottom: 10%;
+    }
+    img {
+        width: 280px;
+        height: 280px;
+    }
+    body {
+        height: 695px;
+    }
 }
