@@ -25,7 +25,7 @@ h1 {
   padding-left: 15px; 
   color: white;
 }
-nav > ul {
+ul {
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@ li > a {
     font-size: 1.5em;
     color: #dfdfe2;
 }
-nav > ul > li {
+ul > li {
     color: #dfdfe2;
     margin-right: 25px;
     padding-bottom: 15px;
@@ -109,6 +109,15 @@ button {
     }
     p {
         font-size: 15px
+    }
+    ul {
+        position: fixed;
+        top: 26px;
+        left: 15px;
+        width: 80%;
+        height: 30px;
+        border-radius: 0 0 5px 5px;
+        background-color: #061172;
     }
     img {
         height: 250px;
