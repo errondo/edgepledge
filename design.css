@@ -1,8 +1,9 @@
 :root {
-    --b-r: red;
+    --b-r: #0CAADC;
     --b-bl: black;
-    --b-bu: blue;
-    --f-bg: #061172;
+    --b-bu: #4392F1;
+    --f-bg: #001021;
+    --item-col: #1481BA;
 }
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -47,9 +48,8 @@ ul > li {
     display: block;
 }
 .contain {
-    margin: 90px auto;
+    margin: 140px auto;
     width: 100%;
-    padding: 80px 20px;
     color: white;
     display: flex;
     flex-direction: row(4);
@@ -60,7 +60,7 @@ ul > li {
     max-width: 1400px; 
 }
 .item {
-    background-color: #0271a9;
+    background-color: var(--item-col);
     width: 400px;
     height: 600px;
     padding: 10px;
@@ -103,8 +103,8 @@ span {
     border: 0
 }
 footer {
-    background-color: #0271a9;
-    border: 4px solid rgb(255, 54, 54);
+    background-color: var(--item-col);
+    border: 4px solid var(--b-r);
     border-radius: 10px 10px 0 0;
     width: 100%;
     margin: 0 0 0 0;
@@ -132,6 +132,9 @@ footer {
        width: 100px;
        height: 250px;
     }
+    .flex {
+        height: 60px
+    }
     img {
         width: 97px;
         height: 97px;
@@ -154,7 +157,7 @@ footer {
         width: 80%;
         height: 30px;
         border-radius: 0 0 5px 5px;
-        background-color: #061172;
+        background-color: var(--f-bg);
     }
     .descr {
         font-size: 10px;

@@ -1,8 +1,8 @@
 :root {
-    --b-r: red;
-    --b-bl: rgb(0, 0, 0);
-    --b-bu: blue;
-    --f-bg: #061172;
+    --b-r: #0CAADC;
+    --b-bl: black;
+    --b-bu: #4392F1;
+    --f-bg: #001021;
 }
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -55,8 +55,8 @@ ul > li {
 .content {
     width: 80%;
     height: 1144px;
-    background-color: rgb(0, 76, 255);
-    border: 3px solid rgb(16, 16, 123);
+    background-color: #1481BA;
+    box-shadow: 0 0 20px 0 var(--b-bl);
     margin-top: 110px;
     margin-left: auto;
     margin-right: auto;
@@ -100,6 +100,9 @@ button {
     h1 {
         font-size: 15px;
     }
+    .flex {
+        height: 60px
+    }
     .logo, .no-pr {
         width: 25px;
         height: 25px;
@@ -117,7 +120,7 @@ button {
         width: 80%;
         height: 30px;
         border-radius: 0 0 5px 5px;
-        background-color: #061172;
+        background-color: var(--f-bg);
     }
     img {
         height: 250px;
