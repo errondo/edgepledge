@@ -147,6 +147,9 @@ footer {
         width: 25px;
         height: 25px;
     }
+    .contain {
+        gap: 25px
+    }
     li > a {
         font-size: 15px;
     }
