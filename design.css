@@ -75,6 +75,15 @@ img {
     margin: 0 18px 0 10px;
     border: solid 4px black;
 }
+.item:hover {
+    width: 420px;
+    height: 620px;
+    padding: 15px;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-name: item;
+    animation-delay: 0ms;
+}
 a {
     text-decoration: none;
     color: #ffffff;
@@ -175,5 +184,15 @@ footer {
     }
     body {
         background: linear-gradient(48deg, var(--b-r) 10%,var(--b-bl) 5%,var(--b-bl) 75%,var(--b-bl) 5%,var(--b-bu) 5%);
+    }
+}
+@keyframes item {
+    0% {
+        width: 400px;
+        height: 620px;
+    }
+    100% {
+        width: 420px;
+        height: 620px;
     }
 }
