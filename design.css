@@ -60,23 +60,23 @@ ul > li {
 }
 .item {
     background-color: var(--item-col);
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 black;
 }
 
 img {
-    width: 370px;
-    height: 360px;
+    width: 270px;
+    height: 260px;
     border-radius: 5px;
     margin: 0 18px 0 10px;
     border: solid 4px black;
 }
 .item:hover {
-    width: 420px;
-    height: 620px;
+    width: 320px;
+    height: 520px;
     padding: 15px;
     animation-timing-function: ease-in-out;
     animation-duration: 1s;
@@ -193,12 +193,12 @@ footer {
 }
 @keyframes item {
     0% {
-        width: 400px;
-        height: 620px;
+        width: 300px;
+        height: 500px;
     }
     100% {
-        width: 420px;
-        height: 620px;
+        width: 320px;
+        height: 520px;
     }
 }
 @keyframes it {
