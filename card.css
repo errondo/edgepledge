@@ -1,16 +1,16 @@
 body {
-    background: linear-gradient(-45deg,blue,black,red);
+    background: linear-gradient(-45deg,#4392F1,black,#0CAADC);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: hidden;
     height: 100vh
 }
 main {
-    background-color: #0271a9;
+    background-color: #1481BA;
     width: 550px;
     height: 640px;
     margin: auto 0;
     padding: 20px;
-    border: 5px solid red;
+    border: 5px solid #0CAADC;
     border-radius: 10px;
     margin: 20px auto 0 auto;
 }
@@ -23,7 +23,7 @@ img {
 p {
     text-align: center;
     font-size: 18px;
-    background-color: blue;
+    background-color: #4392F1;
     border-bottom: 3px solid yellow;
 }
 button {
