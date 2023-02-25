@@ -49,14 +49,13 @@ ul > li {
 }
 .contain {
     margin: 140px auto;
-    width: 100%;
+    width: 95%;
     color: white;
     display: flex;
-    flex-direction: row(4);
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 45px;
+    gap: 25px;
     max-width: 1400px; 
 }
 .item {
@@ -141,6 +140,11 @@ footer {
        width: 100px;
        height: 250px;
     }
+    .item:hover {
+        width: 105px;
+        height: 255px;
+        animation-name: it;
+    }
     .flex {
         height: 60px
     }
@@ -185,6 +189,7 @@ footer {
     body {
         background: linear-gradient(48deg, var(--b-r) 10%,var(--b-bl) 5%,var(--b-bl) 75%,var(--b-bl) 5%,var(--b-bu) 5%);
     }
+    
 }
 @keyframes item {
     0% {
@@ -194,5 +199,15 @@ footer {
     100% {
         width: 420px;
         height: 620px;
+    }
+}
+@keyframes it {
+    0% {
+        width: 100px;
+        height: 250px;
+    }
+    100% {
+        width: 105px;
+        height: 255px;
     }
 }
