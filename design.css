@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'til';
+    src: url(TiltNeon-Regular.ttf);
+}
 :root {
     --b-r: #0CAADC;
     --b-bl: black;
@@ -102,6 +106,7 @@ span {
 .name {
     font-size: 20px;
     padding-left: 50px;
+    font-family: 'til';
 }
 .logo {
     height: 55px;
