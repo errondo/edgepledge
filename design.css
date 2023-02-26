@@ -1,6 +1,10 @@
 @font-face {
     font-family: 'til';
-    src: url(TiltNeon-Regular.ttf);
+    src: url(TiltNeon-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'rob';
+    src: url(Roblox\ Font\ Regular.ttf) format(truetype);
 }
 :root {
     --b-r: #0CAADC;
@@ -30,6 +34,7 @@ body {
 h1 {
   padding-left: 15px; 
   color: white;
+  font-family: 'rob'
 }
  ul {
     justify-content: space-evenly;
