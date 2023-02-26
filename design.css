@@ -137,12 +137,14 @@ footer {
 }
 @media(max-width: 600px){
     .item {
-       width: 100px;
-       height: 250px;
+       width: 350px;
+       height: 100px;
+       display: flex;
+       justify-content: space-evenly;
     }
     .item:hover {
-        width: 105px;
-        height: 255px;
+        width: 355px;
+        height: 105px;
         animation-name: it;
     }
     .flex {
@@ -151,7 +153,7 @@ footer {
     img {
         width: 97px;
         height: 97px;
-        margin: 2px -1px;
+        margin: 2px 50px 0 0;
     }
     h1 {
         font-size: 15px;
@@ -178,10 +180,12 @@ footer {
     .descr {
         font-size: 10px;
         overflow: hidden;
+        margin: 10px;
     }
     .name {
         font-size: 10px;
-        padding-left: 0;
+        margin: 5px; 
+        width: 100%
     }
     span, p {
         font-size: 10px;
@@ -203,11 +207,11 @@ footer {
 }
 @keyframes it {
     0% {
-        width: 100px;
-        height: 250px;
+        width: 350px;
+        height: 100px;
     }
     100% {
-        width: 105px;
-        height: 255px;
+        width: 355px;
+        height: 105px;
     }
 }
