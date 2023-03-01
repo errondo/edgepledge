@@ -50,6 +50,12 @@ li > a {
     font-size: 1.5em;
     color: #dfdfe2;
 }
+ul > li:hover {
+    margin-bottom: 10px;
+    animation-name: hover;
+    animation-timing-function: ease-in-out;
+    animation-duration: 400ms;
+}
 ul > li {
     color: #dfdfe2;
     margin-right: 25px;
@@ -88,7 +94,7 @@ img {
     height: 520px;
     padding: 15px;
     animation-timing-function: ease-in-out;
-    animation-duration: 1s;
+    animation-duration: 800ms;
     animation-name: item;
     animation-delay: 0ms;
 }
@@ -118,7 +124,7 @@ span {
     width: 55px;
     margin-left: 10px;
     margin-bottom: 10px;
-    border: 0
+    border: 0;
 }
 footer {
     background-color: var(--item-col);
@@ -144,6 +150,16 @@ footer {
     height: 50px;
     margin-right: 20px;
     border-radius: 50%;
+}
+.no-pr:hover {
+     animation-name: hover;
+    animation-timing-function: ease-in-out;
+    animation-duration: 400ms;
+    margin-bottom: 10px;
+}
+.feet {
+    display: flex;
+    justify-content: space-between;
 }
 @media(max-width: 600px){
     .item {
@@ -223,5 +239,13 @@ footer {
     100% {
         width: 355px;
         height: 105px;
+    }
+}
+@keyframes hover {
+    0% {
+      margin-bottom: 0;
+    }
+    100% {
+        margin-bottom: 10px;
     }
 }
