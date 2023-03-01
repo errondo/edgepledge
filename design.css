@@ -178,7 +178,7 @@ footer {
         animation-name: it;
     }
     .flex {
-        height: 60px
+        height: 75px;
     }
     img {
         width: 97px;
@@ -200,9 +200,9 @@ footer {
     }
     ul {
         position: fixed;
-        top: 27px;
+        top: 28px;
         left: 15px;
-        width: 80%;
+        width: 70%;
         height: 30px;
         border-radius: 0 0 5px 5px;
         background-color: var(--f-bg);
