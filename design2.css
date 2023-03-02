@@ -29,6 +29,7 @@ html {
 }
 body {
     background: linear-gradient(45deg, var(--b-r) 10%,var(--b-bl) 5%,var(--b-bl) 75%,var(--b-bl) 5%,var(--b-bu) 5%);
+    margin: 0;
 }
 h1 {
   padding-left: 15px; 
