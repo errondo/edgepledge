@@ -122,6 +122,12 @@ button {
     color:rgb(0, 0, 0)
 }
 @media(max-width: 600px){
+    h1 {
+        font-size: 15px;
+        position: relative;
+        top: -15px;
+        left: 30px;
+    }
     .flex {
         height: 75px
     }
@@ -143,11 +149,10 @@ button {
     ul {
         position: fixed;
         top: 26px;
-        left: 15px;
+        right: 200px;
         width: 70%;
         height: 30px;
         border-radius: 0 0 5px 5px;
-        background-color: var(--f-bg);
     }
     img {
         height: 250px;
