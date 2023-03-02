@@ -37,7 +37,9 @@ body {
 h1 {
   padding-left: 15px; 
   color: white;
-  font-family: 'rob'
+  font-family: 'rob';
+  position: relative;
+  left: -200px;
 }
  ul {
     justify-content: space-evenly;
@@ -64,6 +66,8 @@ ul > li {
     margin-right: 25px;
     padding-bottom: 15px;
     display: block;
+    position: relative;
+    right: -200px;
 }
 .contain {
     margin: 140px auto;
@@ -166,6 +170,11 @@ footer {
     justify-content: space-between;
 }
 @media(max-width: 600px){
+    .logo {
+        position: relative;
+        top: -15px;
+        left: 60px
+    }
     .item {
        width: 350px;
        height: 100px;
@@ -187,6 +196,8 @@ footer {
     }
     h1 {
         font-size: 15px;
+        position: relative;
+        top: -15px;
     }
     .logo, .no-pr {
         width: 25px;
