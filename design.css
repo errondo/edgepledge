@@ -20,6 +20,7 @@ html {
     display: flex;
     background-color: var(--f-bg);
     width: 100%;
+    height: 45px;
     justify-content: space-between;
     border: solid 5px var(--b-bu);
     border-radius: 20px;
@@ -38,6 +39,7 @@ h1 {
   font-family: 'rob';
   position: relative;
   left: -200px;
+  font-size: 20px;
 }
  ul {
     justify-content: space-evenly;
@@ -66,37 +68,38 @@ ul > li {
     display: block;
     position: relative;
     right: -200px;
+    font-size: 10px;
 }
 .contain {
-    margin: 140px auto;
+    margin: 100px auto;
     width: 95%;
     color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
     max-width: 1400px; 
 }
 .item {
     background-color: var(--item-col);
-    width: 300px;
-    height: 500px;
+    width: 280px;
+    height: 480px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 black;
 }
 
 img {
-    width: 270px;
+    width: 260px;
     height: 260px;
     border-radius: 5px;
-    margin: 0 18px 0 10px;
+    margin: 0 26px 0 7px;
     border: solid 4px black;
 }
 .item:hover {
-    width: 320px;
-    height: 520px;
+    width: 290px;
+    height: 490px;
     padding: 15px;
     animation-timing-function: ease-in-out;
     animation-duration: 800ms;
@@ -125,14 +128,14 @@ span {
     font-family: 'til';
 }
 .logo {
-    height: 55px;
-    width: 55px;
+    height: 30px;
+    width: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
     border: 0;
 }
 footer {
-    background-color: var(--item-col);
+    background-color: var(--f-bg);
     border: 4px solid var(--b-r);
     border-radius: 10px 10px 0 0;
     width: 98%;
@@ -151,9 +154,12 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+.foot, .fot, .thank {
+    color: #ffffff;
+} 
 .no-pr {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-right: 20px;
     border-radius: 50%;
 }
@@ -167,7 +173,21 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+@media(max-width: 1157px) {
+    h1 {
+        position: relative;
+        left: -10px;
+    }
+    ul > li {
+        position: relative;
+        right: -10px;
+    }
+}
 @media(max-width: 600px){
+    ul > li {
+        position: relative;
+        right: -200px
+    }
     .logo {
         position: relative;
         top: -15px;
@@ -237,12 +257,12 @@ footer {
 }
 @keyframes item {
     0% {
-        width: 300px;
-        height: 500px;
+        width: 280px;
+        height: 480px;
     }
     100% {
-        width: 320px;
-        height: 520px;
+        width: 290px;
+        height: 490px;
     }
 }
 @keyframes it {
