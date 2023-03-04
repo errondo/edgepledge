@@ -27,6 +27,7 @@ html {
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
@@ -98,9 +99,7 @@ img {
     border: solid 4px black;
 }
 .item:hover {
-    width: 290px;
-    height: 490px;
-    padding: 15px;
+    height: 500px;
     animation-timing-function: ease-in-out;
     animation-duration: 800ms;
     animation-name: item;
@@ -257,12 +256,10 @@ footer {
 }
 @keyframes item {
     0% {
-        width: 280px;
         height: 480px;
     }
     100% {
-        width: 290px;
-        height: 490px;
+        height: 500px;
     }
 }
 @keyframes it {
