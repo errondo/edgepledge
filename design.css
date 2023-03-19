@@ -79,8 +79,8 @@ ul > li {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 30px;
     max-width: 1400px; 
+    gap: 15px;
 }
 .item {
     background-color: var(--item-col);
@@ -99,11 +99,11 @@ img {
     border: solid 4px black;
 }
 .item:hover {
-    height: 500px;
     animation-timing-function: ease-in-out;
     animation-duration: 800ms;
     animation-name: item;
     animation-delay: 0ms;
+    transform: scale(1.05);
 }
 a {
     text-decoration: none;
@@ -231,8 +231,6 @@ footer {
        overflow: hidden;
     }
     .item:hover {
-        width: 355px;
-        height: 105px;
         animation-name: it;
     }
     .flex {
@@ -294,20 +292,18 @@ footer {
 }
 @keyframes item {
     0% {
-        height: 480px;
+        transform: scale(1);
     }
     100% {
-        height: 500px;
+        transform: scale(1.05);
     }
 }
 @keyframes it {
     0% {
-        width: 350px;
-        height: 100px;
+        transform: scale(1);
     }
     100% {
-        width: 355px;
-        height: 105px;
+        transform: scale(1.05);
     }
 }
 @keyframes hover {
