@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'tilt';
+    src: url(./TiltNeon-Regular.ttf);
+}
 body {
     background-image: url(./syst_img/Untitled13_20221219142717.png);
+    font-family: 'tilt';
 }
 h1 {
     text-align: center;

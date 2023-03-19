@@ -1,5 +1,9 @@
+@font-face {
+    font-family: 'tilt';
+    src: url(./TiltNeon-Regular.ttf);
+}
 html {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'tilt';
 }
 main {
     background-color: #1481BA;
